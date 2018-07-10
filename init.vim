@@ -23,7 +23,7 @@ Plug 'https://github.com/wesQ3/vim-windowswap'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-let g:airline_theme='cobalt2'
+let g:airline_theme='solarized-dark'
 let g:airline#extensions#tabline#formatter = 'jsformatter'
 let mapleader=","
 call plug#end()
