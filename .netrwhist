@@ -1,7 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/elirankononowicz/dev/Platform.VisitTracking/routes'
-let g:netrw_dirhist_2='/Users/elirankononowicz/dev/Platform.VisitTracking/lib'
-let g:netrw_dirhist_3='/Users/elirankononowicz/dev/Platform.VisitTracking'
-let g:netrw_dirhist_4='/Users/elirankononowicz/dev/Platform.VisitTracking/scripts/v2'
-let g:netrw_dirhist_5='/Users/elirankononowicz/dev/candidates/simonMayes/tt20180709'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/elirankononowicz/dev/platform.event-matcher/tools'
+let g:netrw_dirhist_2='/Users/elirankononowicz/dev/platform.event-matcher'
+let g:netrw_dirhist_3='/Users/elirankononowicz/dev/platform.event-matcher/app'

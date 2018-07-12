@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 set path+=**
+set wildignore+=**/node_modules/**
 set number
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/vim-github-dashboard'
@@ -27,6 +28,4 @@ let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#formatter = 'jsformatter'
 let mapleader=","
 call plug#end()
-autocmd FileType javascript set formatprg=prettier\ --stdin
-autocmd BufWritePre *.js :normal gggqG
 syntax on
