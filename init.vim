@@ -8,6 +8,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'https://github.com/w0rp/ale.git'
 Plug 'git://github.com/jiangmiao/auto-pairs.git' 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 let g:ale_fixers = {'javascript': ['eslint']}
 let b:ale_linters = {'javascript': ['eslint']}
 let g:ale_linters_explicit = 1
